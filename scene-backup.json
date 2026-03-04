@@ -1,0 +1,109 @@
+{
+  "camera": {
+    "position": [0, 5, 12],
+    "target": [0, 5, 0],
+    "fov": 60
+  },
+  "lights": {
+    "pointLights": [
+      {
+        "name": "topLight",
+        "position": [-10, 16, 0],
+        "color": [1.0, 0.85, 0.6],
+        "intensity": 100.0,
+        "radius": 1
+      },
+      {
+        "name": "topLightRight",
+        "position": [10, 16, 0],
+        "color": [0.6, 0.6, 1.0],
+        "intensity": 100.0,
+        "radius": 1
+      },
+      {
+        "name": "bottomLight",
+        "position": [-8, 2, 5],
+        "color": [1.0, 0.85, 0.6],
+        "intensity": 100.0,
+        "radius": 1
+      },
+      {
+        "name": "bottomLightRight",
+        "position": [8, 2, 5],
+        "color": [0.6, 0.6, 1.0],
+        "intensity": 100.0,
+        "radius": 1
+      }
+    ],
+    "directionalLights": [],
+    "spotLights": []
+  },
+  "objects": {
+    
+    "cubes": [
+      
+    ],
+    "models": [
+      {
+        "name": "statue",
+        "file": "models/statue.obj",
+        "position": [0, 0.1, 0],
+        "rotation": [0, 0, 0],
+        "scale": [5, 5, 5],
+        "material": "glass"
+      }
+
+    ],
+    "planes": [
+      {
+        "name": "backWall",
+        "position": [0, 5, -10],
+        "rotation": [90, 0, 0],
+        "scale": [5, 1, 1],
+        "size": 50,
+        "material": "fabric"
+      },
+      {
+        "name": "frontWall",
+        "position": [0, 5, 15],
+        "rotation": [90, 0, 0],
+        "scale": [1, 1, 1],
+        "size": 50,
+        "material": "fabric"
+      },
+      {
+        "name": "leftWall",
+        "position": [-20, 5, 5],
+        "rotation": [0, 0, 90],
+        "scale": [1, 1, 2],
+        "size": 50,
+        "material": "fabric"
+      },
+      {
+        "name": "rightWall",
+        "position": [20, 5, 5],
+        "rotation": [0, 0, -90],
+        "scale": [1, 1, 2],
+        "size": 50,
+        "material": "fabric"
+      },
+
+      {
+        "name": "ceiling",
+        "position": [0, 20, 5],
+        "rotation": [180, 0, 0],
+        "scale": [1, 1, 2],
+        "size": 50,
+        "material": "fabric"
+      },
+      {
+        "name": "floor",
+        "position": [0, 0, 5],
+        "rotation": [180, 0, 0],
+        "scale": [1, 1, 2],
+        "size": 50,
+        "material": "wood"
+      }
+    ]
+  }
+}

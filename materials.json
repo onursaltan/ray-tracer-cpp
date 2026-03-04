@@ -1,0 +1,429 @@
+{
+  "materials": {
+    "red": {
+      "diffuse": [0.63, 0.065, 0.05],
+      "specular": [0.0, 0.0, 0.0],
+      "shininess": 1.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "blue": {
+      "diffuse": [0.1, 0.1, 0.75],
+      "specular": [0.0, 0.0, 0.0],
+      "shininess": 1.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+
+    "black": {
+      "diffuse": [0.05, 0.05, 0.05],
+      "specular": [0.05, 0.05, 0.05],
+      "shininess": 0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "ceramic": {
+      "diffuse": [1.0, 1.0, 1.0],
+      "specular": [0.6, 0.6, 0.6],
+      "shininess": 100.0,
+      "ambient": 0.1,
+      "reflectivity": 0.1,
+      "glossiness": 0.85,
+      "diffuseTexture": "textures/ceramic.jpg",
+      "normalTexture": "textures/ceramic-normal.png",
+      "roughnessTexture": "textures/ceramic-roughness.jpg",
+      "textureScale": 2.0
+    },
+    "fabric": {
+      "diffuse": [1.0, 1.0, 1.0],
+      "specular": [0.05, 0.05, 0.05],
+      "shininess": 5.0,
+      "ambient": 0.15,
+      "reflectivity": 0.0,
+      "glossiness": 0.1,
+      "diffuseTexture": "textures/fabric-black.jpg",
+      "normalTexture": "textures/fabric-black-normal.jpg",
+      "roughnessTexture": "textures/fabric-black-roughness.jpg",
+      "textureScale": 8
+    },
+    "green": {
+      "diffuse": [0.14, 0.45, 0.091],
+      "specular": [0.0, 0.0, 0.0],
+      "shininess": 1.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "white": {
+      "diffuse": [0.73, 0.73, 0.73],
+      "specular": [0.0, 0.0, 0.0],
+      "shininess": 1.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "metal": {
+      "diffuse": [0.5, 0.5, 0.5],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 128.0,
+      "ambient": 0.2,
+      "reflectivity": 0.6,
+      "glossiness": 0.6
+    },
+    "gold": {
+      "diffuse": [0.8, 0.7, 0.2],
+      "specular": [1.0, 1.0, 0.8],
+      "shininess": 96.0,
+      "ambient": 0.15,
+      "reflectivity": 0.4,
+      "glossiness": 0.85
+    },
+    "marble": {
+      "diffuse": [0.95, 0.93, 0.88],
+      "specular": [0.4, 0.4, 0.4],
+      "shininess": 60.0,
+      "ambient": 0.12,
+      "reflectivity": 0.05,
+      "glossiness": 0.9
+    },
+    "bronze": {
+      "diffuse": [0.55, 0.35, 0.15],
+      "specular": [0.8, 0.6, 0.4],
+      "shininess": 80.0,
+      "ambient": 0.1,
+      "reflectivity": 0.25,
+      "glossiness": 0.7
+    },
+    "stone": {
+      "diffuse": [0.45, 0.42, 0.38],
+      "specular": [0.1, 0.1, 0.1],
+      "shininess": 10.0,
+      "ambient": 0.15,
+      "reflectivity": 0.0,
+      "glossiness": 0.3
+    },
+    "plaster": {
+      "diffuse": [0.92, 0.9, 0.85],
+      "specular": [0.05, 0.05, 0.05],
+      "shininess": 5.0,
+      "ambient": 0.2,
+      "reflectivity": 0.0,
+      "glossiness": 0.1
+    },
+    "obsidian": {
+      "diffuse": [0.05, 0.05, 0.07],
+      "specular": [0.8, 0.8, 0.8],
+      "shininess": 200.0,
+      "ambient": 0.05,
+      "reflectivity": 0.15,
+      "glossiness": 0.95
+    },
+    "mirror": {
+      "diffuse": [0.05, 0.05, 0.05],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 1000.0,
+      "ambient": 0.0,
+      "reflectivity": 1,
+      "glossiness": 1.0
+    },
+    "yellow": {
+      "diffuse": [0.8, 0.8, 0.1],
+      "specular": [0.1, 0.1, 0.1],
+      "shininess": 10.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "cyan": {
+      "diffuse": [0.1, 0.8, 0.8],
+      "specular": [0.1, 0.1, 0.1],
+      "shininess": 10.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "magenta": {
+      "diffuse": [0.8, 0.1, 0.8],
+      "specular": [0.1, 0.1, 0.1],
+      "shininess": 10.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "checkerboard": {
+      "diffuse": [1.0, 1.0, 1.0],
+      "specular": [0.2, 0.2, 0.2],
+      "shininess": 20.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0,
+      "diffuseTexture": "checkerboard"
+    },
+    "wood": {
+      "diffuse": [1.0, 1.0, 1.0],
+      "specular": [0.5, 0.5, 0.5],
+      "shininess": 80.0,
+      "ambient": 0.1,
+      "reflectivity": 0.1,
+      "diffuseTexture": "textures/wood2.jpg"
+    },
+    "pool": {
+      "diffuse": [1.0, 1.0, 1.0],
+      "specular": [0.3, 0.3, 0.3],
+      "shininess": 20.0,
+      "ambient": 0.15,
+      "reflectivity": 0.0,
+      "diffuseTexture": "textures/pool.jpg",
+      "textureScale": 2.0
+    },
+    "glass": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.5,
+      "transmissionColor": [1.0, 1.0, 1.0],
+      "absorptionDistance": 5.0
+    },
+    "tinted_glass": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.5,
+      "transmissionColor": [0.8, 0.9, 1.0],
+      "absorptionDistance": 0.5
+    },
+    "water": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 300.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 0.95,
+      "ior": 1.33,
+      "transmissionColor": [0.7, 0.85, 0.95],
+      "absorptionDistance": 0.5
+    },
+    "diamond": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 1000.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 2.42,
+      "transmissionColor": [1.0, 1.0, 1.0],
+      "absorptionDistance": 5.0
+    },
+    "colored_glass_red": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.5,
+      "transmissionColor": [1.0, 0.3, 0.3],
+      "absorptionDistance": 0.3
+    },
+    "colored_glass_green": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.5,
+      "transmissionColor": [0.3, 1.0, 0.3],
+      "absorptionDistance": 0.3
+    },
+    "red_shiny": {
+      "diffuse": [0.63, 0.065, 0.05],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 128.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "white_shiny": {
+      "diffuse": [0.73, 0.73, 0.73],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 128.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "blue_shiny": {
+      "diffuse": [0.1, 0.1, 0.75],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 128.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "red_low_shin": {
+      "diffuse": [0.63, 0.065, 0.05],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 5.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "green_low_shin": {
+      "diffuse": [0.14, 0.45, 0.091],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 5.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "blue_low_shin": {
+      "diffuse": [0.1, 0.1, 0.75],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 5.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "red_high_shin": {
+      "diffuse": [0.63, 0.065, 0.05],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 512.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "green_high_shin": {
+      "diffuse": [0.14, 0.45, 0.091],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 512.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "blue_high_shin": {
+      "diffuse": [0.1, 0.1, 0.75],
+      "specular": [0.9, 0.9, 0.9],
+      "shininess": 512.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0
+    },
+    "colored_glass_blue": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.5,
+      "transmissionColor": [0.3, 0.3, 1.0],
+      "absorptionDistance": 0.3
+    },
+    "ior_1.0": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.0,
+      "transmissionColor": [1.0, 1.0, 1.0],
+      "absorptionDistance": 5.0
+    },
+    "ior_1.33": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.33,
+      "transmissionColor": [1.0, 1.0, 1.0],
+      "absorptionDistance": 5.0
+    },
+    "ior_1.5": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.5,
+      "transmissionColor": [1.0, 1.0, 1.0],
+      "absorptionDistance": 5.0
+    },
+    "ior_2.42": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 2.42,
+      "transmissionColor": [1.0, 1.0, 1.0],
+      "absorptionDistance": 5.0
+    },
+    "solid_glass": {
+      "diffuse": [0.0, 0.0, 0.0],
+      "specular": [1.0, 1.0, 1.0],
+      "shininess": 500.0,
+      "ambient": 0.0,
+      "reflectivity": 0.0,
+      "glossiness": 1.0,
+      "transparency": 1.0,
+      "ior": 1.5,
+      "transmissionColor": [0.6, 0.8, 0.6],
+      "absorptionDistance": 0.5
+    },
+    "leather": {
+      "diffuse": [0.08, 0.06, 0.05],
+      "specular": [0.3, 0.3, 0.3],
+      "shininess": 40.0,
+      "ambient": 0.08,
+      "reflectivity": 0.03,
+      "glossiness": 0.5
+    },
+    "white_textured": {
+      "diffuse": [0.73, 0.73, 0.73],
+      "specular": [0.2, 0.2, 0.2],
+      "shininess": 30.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0,
+      "normalTexture": "textures/wood2-normal.jpg",
+      "roughnessTexture": "textures/wood2-roughness.jpg",
+      "textureScale": 3.0
+    },
+    "red_textured": {
+      "diffuse": [0.63, 0.065, 0.05],
+      "specular": [0.2, 0.2, 0.2],
+      "shininess": 30.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0,
+      "normalTexture": "textures/wood2-normal.jpg",
+      "roughnessTexture": "textures/wood2-roughness.jpg",
+      "textureScale": 3.0
+    },
+    "green_textured": {
+      "diffuse": [0.14, 0.45, 0.091],
+      "specular": [0.2, 0.2, 0.2],
+      "shininess": 30.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0,
+      "normalTexture": "textures/wood2-normal.jpg",
+      "roughnessTexture": "textures/wood2-roughness.jpg",
+      "textureScale": 3.0
+    },
+    "blue_textured": {
+      "diffuse": [0.1, 0.1, 0.75],
+      "specular": [0.2, 0.2, 0.2],
+      "shininess": 30.0,
+      "ambient": 0.1,
+      "reflectivity": 0.0,
+      "normalTexture": "textures/wood2-normal.jpg",
+      "roughnessTexture": "textures/wood2-roughness.jpg",
+      "textureScale": 3.0
+    }
+  }
+}

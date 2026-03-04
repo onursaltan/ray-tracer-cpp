@@ -1,0 +1,15 @@
+{
+    "render": {
+        "width": 700,
+        "height": 700,
+        "samplesPerPixel": 4,
+        "useBVH": true,
+        "shadowSamples": 4,
+        "maxBounces": 5
+    },
+    "animation": {
+        "enabled": false,
+        "totalFrames": 125,
+        "fps": 25
+    }
+}

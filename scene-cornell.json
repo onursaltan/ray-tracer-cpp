@@ -1,0 +1,102 @@
+{
+  "camera": {
+    "position": [0, 5, 12],
+    "target": [0, 5, 0],
+    "fov": 60
+  },
+  "lights": {
+    "pointLights": [
+      {
+        "name": "topLight",
+        "position": [0, 9, 0],
+        "color": [1.0, 1.0, 1.0],
+        "intensity": 45.0,
+        "radius": 1
+      }
+    ],
+    "directionalLights": [],
+    "spotLights": []
+  },
+  "objects": {
+    
+    "cubes": [
+      {
+        "name": "waterCube",
+        "position": [0, -2.4, 0],
+        "rotation": [0, 0, 0],
+        "scale": [10, 4.8, 10],
+        "material": "water"
+      }
+    ],
+    "models": [
+      {
+        "name": "teapot",
+        "file": "models/teapot.obj",
+        "position": [0, 1, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1],
+        "material": "glass"
+      },
+      {
+        "name": "statue",
+        "file": "models/statue.obj",
+        "position": [0, 1, 0],
+        "rotation": [0, 0, 0],
+        "scale": [3, 3, 3],
+        "material": "brushed_metal"
+      }
+    ],
+    "planes": [
+
+      {
+        "name": "backWall",
+        "position": [0, 5, -5],
+        "rotation": [90, 0, 0],
+        "scale": [1, 1, 1],
+        "size": 11,
+        "material": "checkerboard"
+      },
+      {
+        "name": "waterFloor",
+        "position": [0, -5, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1],
+        "size": 50,
+        "material": "pool"
+      },
+      {
+        "name": "frontWall",
+        "position": [0, 5, 15],
+        "rotation": [90, 0, 0],
+        "scale": [1, 1, 1],
+        "size": 11,
+        "material": "black"
+      },
+      {
+        "name": "leftWall",
+        "position": [-5, 5, 5],
+        "rotation": [0, 0, 90],
+        "scale": [1, 1, 2],
+        "size": 10,
+        "material": "red"
+      },
+      {
+        "name": "rightWall",
+        "position": [5, 5, 5],
+        "rotation": [0, 0, -90],
+        "scale": [1, 1, 2],
+        "size": 10,
+        "material": "green"
+      },
+
+      {
+        "name": "ceiling",
+        "position": [0, 10, 5],
+        "rotation": [180, 0, 0],
+        "scale": [1, 1, 2],
+        "size": 10,
+        "material": "white"
+      }
+    ]
+  }
+}

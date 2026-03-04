@@ -1,0 +1,63 @@
+{
+  "camera": {
+    "position": [0, 3, 10],
+    "target": [0, 1, 0],
+    "fov": 55
+  },
+  "lights": {
+    "pointLights": [
+      {
+        "name": "mainLight",
+        "position": [5, 8, 5],
+        "color": [1.0, 1.0, 1.0],
+        "intensity": 30.0,
+        "radius": 0.5
+      }
+    ],
+    "directionalLights": [],
+    "spotLights": []
+  },
+  "objects": {
+    "spheres": [
+      {
+        "name": "red_sphere",
+        "position": [-2, 1, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1],
+        "radius": 1,
+        "segments": 32,
+        "material": "red"
+      },
+      {
+        "name": "blue_sphere",
+        "position": [0, 1, -1],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1],
+        "radius": 1,
+        "segments": 32,
+        "material": "blue"
+      },
+      {
+        "name": "green_sphere",
+        "position": [2, 1, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1],
+        "radius": 1,
+        "segments": 32,
+        "material": "green"
+      }
+    ],
+    "cubes": [],
+    "models": [],
+    "planes": [
+      {
+        "name": "floor",
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 1, 1],
+        "size": 20,
+        "material": "white"
+      }
+    ]
+  }
+}

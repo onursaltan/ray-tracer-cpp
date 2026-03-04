@@ -1,0 +1,34 @@
+# Wavefront MTL file
+# Custom extensions: # reflectivity <value>, # glossiness <value>
+
+newmtl porcelain
+Ka 0.1 0.1 0.1
+Kd 0.95 0.95 0.95
+Ks 1.0 1.0 1.0
+Ns 200.0
+# reflectivity 0.15
+# glossiness 1.0
+
+newmtl chrome
+Ka 0.2 0.2 0.2
+Kd 0.4 0.4 0.4
+Ks 1.0 1.0 1.0
+Ns 500.0
+# reflectivity 0.8
+# glossiness 1.0
+
+newmtl brushed_metal
+Ka 0.15 0.15 0.15
+Kd 0.6 0.6 0.6
+Ks 0.8 0.8 0.8
+Ns 100.0
+# reflectivity 0.4
+# glossiness 0.7
+
+newmtl copper
+Ka 0.1 0.05 0.02
+Kd 0.72 0.45 0.2
+Ks 1.0 0.8 0.6
+Ns 80.0
+# reflectivity 0.3
+# glossiness 0.85
