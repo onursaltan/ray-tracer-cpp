@@ -1,0 +1,9 @@
+# Cube material file
+
+newmtl brushed_metal
+Ka 0.15 0.15 0.15
+Kd 0.6 0.6 0.6
+Ks 0.8 0.8 0.8
+Ns 100.0
+# reflectivity 0.4
+# glossiness 0.7

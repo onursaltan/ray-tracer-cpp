@@ -2,9 +2,9 @@
     "render": {
         "width": 700,
         "height": 700,
-        "samplesPerPixel": 4,
+        "samplesPerPixel": 2,
         "useBVH": true,
-        "shadowSamples": 4,
+        "shadowSamples": 2,
         "maxBounces": 5
     },
     "animation": {
